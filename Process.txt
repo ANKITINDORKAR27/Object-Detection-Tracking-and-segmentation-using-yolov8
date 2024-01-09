@@ -1,0 +1,46 @@
+Hello people for getting the documents follow the link to download the files and then follow the steps mentioned below
+https://drive.google.com/drive/folders/1zIS8Ey7oTi9thdXrtZtjJJ8Am5b5yyhS?usp=sharing
+
+
+yolov8-cpu detection process
+First of all you have to install anaconda prompt and then you need to create the environment with name yolov8-cpu-env
+after that 
+
+1 - activate environment using anaconda prompt and the command will be
+>>activate yolov8-cpu-env
+2 - install ultralytics using 
+>>pip install ultralytics
+3 - navigate to the root folder in anaconda prompt
+download the pre trained model of yolo form repository
+although you will get the whole complete file in my google drive link also only thing you have to create the environment in anaconda 
+https://github.com/ultralytics/ultralytics?tab=readme-ov-file
+
+
+4 - then run the command in anaconda prompt like this, every time if you open the anaconda prompt you have to activate the environment using command
+>>>>activate yolov8-cpu-env
+5 - once the environment is activated it will look like this..
+This is the example in my system
+(yolov8-cpu-env) C:\Users\Ankit>
+
+#after that navigate the root folder where you have downloaded my google drive file
+6 - copy the path and paste it in prompt like this in your case path will be depend on your system path below is the example of my system
+>>>>(yolov8-cpu-env) C:\Users\Ankit>cd.. C:\YOLOV8\yolov8-cpu
+
+7 - Then use this command for Detecting the object
+
+(yolov8-cpu-env) C:\YOLOV8\yolov8-cpu>yolo detect predict model=yolov8l.pt source= "inferences/bus.jpg" save=True show=True line_width=1
+
+8 - this will take time after running the command and then in the bottom it will show you the path of the output
+
+9 - then go the folder and check the predicted file 
+
+10 -You will find the output there 
+
+Congratulation you have successfully done the detection and tracking using yolov8 ultralytics
+
+If you have any doubt in executing the above command drop a mail to my mail id 
+Ankit.Indorkar2789@gmail.com
+
+I will hepl you for sure...take care
+
+Ankit Indorkar
